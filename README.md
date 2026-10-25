@@ -1,0 +1,1 @@
+# Ti60f225_sc431hai2hdmi_v6_clean
