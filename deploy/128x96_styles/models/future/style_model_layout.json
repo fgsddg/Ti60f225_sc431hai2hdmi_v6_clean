@@ -1,0 +1,1014 @@
+{
+  "abi_version": "0x00010000",
+  "pass_count": 19,
+  "model_blob_bytes": 53808,
+  "arena_bytes": 516608,
+  "stats_offset": 516096,
+  "feature_layout": {
+    "q_in": {
+      "offset": 0,
+      "bytes": 49152,
+      "shape": [
+        3,
+        96,
+        128
+      ],
+      "pixel_stride": 4
+    },
+    "q1": {
+      "offset": 49152,
+      "bytes": 98304,
+      "shape": [
+        8,
+        96,
+        128
+      ],
+      "pixel_stride": 8
+    },
+    "q2": {
+      "offset": 147456,
+      "bytes": 49152,
+      "shape": [
+        16,
+        48,
+        64
+      ],
+      "pixel_stride": 16
+    },
+    "q3": {
+      "offset": 196608,
+      "bytes": 24576,
+      "shape": [
+        24,
+        24,
+        32
+      ],
+      "pixel_stride": 32
+    },
+    "res.0.q_relu": {
+      "offset": 221184,
+      "bytes": 24576,
+      "shape": [
+        24,
+        24,
+        32
+      ],
+      "pixel_stride": 32
+    },
+    "res.0.q_out": {
+      "offset": 245760,
+      "bytes": 24576,
+      "shape": [
+        24,
+        24,
+        32
+      ],
+      "pixel_stride": 32
+    },
+    "res.1.q_relu": {
+      "offset": 270336,
+      "bytes": 24576,
+      "shape": [
+        24,
+        24,
+        32
+      ],
+      "pixel_stride": 32
+    },
+    "res.1.q_out": {
+      "offset": 294912,
+      "bytes": 24576,
+      "shape": [
+        24,
+        24,
+        32
+      ],
+      "pixel_stride": 32
+    },
+    "q4": {
+      "offset": 319488,
+      "bytes": 49152,
+      "shape": [
+        16,
+        48,
+        64
+      ],
+      "pixel_stride": 16
+    },
+    "q5": {
+      "offset": 368640,
+      "bytes": 98304,
+      "shape": [
+        8,
+        96,
+        128
+      ],
+      "pixel_stride": 8
+    },
+    "q_out": {
+      "offset": 466944,
+      "bytes": 49152,
+      "shape": [
+        3,
+        96,
+        128
+      ],
+      "pixel_stride": 4
+    }
+  },
+  "sections": [
+    {
+      "name": "conv1.weight_int8",
+      "offset": 0,
+      "bytes": 216,
+      "shape": [
+        8,
+        3,
+        3,
+        3
+      ],
+      "dtype": "int8"
+    },
+    {
+      "name": "conv1.weight_scale",
+      "offset": 224,
+      "bytes": 32,
+      "shape": [
+        8
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "conv1.bias",
+      "offset": 256,
+      "bytes": 32,
+      "shape": [
+        8
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "conv2.weight_int8",
+      "offset": 288,
+      "bytes": 1152,
+      "shape": [
+        16,
+        8,
+        3,
+        3
+      ],
+      "dtype": "int8"
+    },
+    {
+      "name": "conv2.weight_scale",
+      "offset": 1440,
+      "bytes": 64,
+      "shape": [
+        16
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "conv2.bias",
+      "offset": 1504,
+      "bytes": 64,
+      "shape": [
+        16
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "conv3.weight_int8",
+      "offset": 1568,
+      "bytes": 3456,
+      "shape": [
+        24,
+        16,
+        3,
+        3
+      ],
+      "dtype": "int8"
+    },
+    {
+      "name": "conv3.weight_scale",
+      "offset": 5024,
+      "bytes": 96,
+      "shape": [
+        24
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "conv3.bias",
+      "offset": 5120,
+      "bytes": 96,
+      "shape": [
+        24
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "res.0.conv1.weight_int8",
+      "offset": 5216,
+      "bytes": 5184,
+      "shape": [
+        24,
+        24,
+        3,
+        3
+      ],
+      "dtype": "int8"
+    },
+    {
+      "name": "res.0.conv1.weight_scale",
+      "offset": 10400,
+      "bytes": 96,
+      "shape": [
+        24
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "res.0.conv1.bias",
+      "offset": 10496,
+      "bytes": 96,
+      "shape": [
+        24
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "res.0.conv2.weight_int8",
+      "offset": 10592,
+      "bytes": 5184,
+      "shape": [
+        24,
+        24,
+        3,
+        3
+      ],
+      "dtype": "int8"
+    },
+    {
+      "name": "res.0.conv2.weight_scale",
+      "offset": 15776,
+      "bytes": 96,
+      "shape": [
+        24
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "res.0.conv2.bias",
+      "offset": 15872,
+      "bytes": 96,
+      "shape": [
+        24
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "res.1.conv1.weight_int8",
+      "offset": 15968,
+      "bytes": 5184,
+      "shape": [
+        24,
+        24,
+        3,
+        3
+      ],
+      "dtype": "int8"
+    },
+    {
+      "name": "res.1.conv1.weight_scale",
+      "offset": 21152,
+      "bytes": 96,
+      "shape": [
+        24
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "res.1.conv1.bias",
+      "offset": 21248,
+      "bytes": 96,
+      "shape": [
+        24
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "res.1.conv2.weight_int8",
+      "offset": 21344,
+      "bytes": 5184,
+      "shape": [
+        24,
+        24,
+        3,
+        3
+      ],
+      "dtype": "int8"
+    },
+    {
+      "name": "res.1.conv2.weight_scale",
+      "offset": 26528,
+      "bytes": 96,
+      "shape": [
+        24
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "res.1.conv2.bias",
+      "offset": 26624,
+      "bytes": 96,
+      "shape": [
+        24
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "upsample_conv1.weight_int8",
+      "offset": 26720,
+      "bytes": 3456,
+      "shape": [
+        16,
+        24,
+        3,
+        3
+      ],
+      "dtype": "int8"
+    },
+    {
+      "name": "upsample_conv1.weight_scale",
+      "offset": 30176,
+      "bytes": 64,
+      "shape": [
+        16
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "upsample_conv1.bias",
+      "offset": 30240,
+      "bytes": 64,
+      "shape": [
+        16
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "upsample_conv2.weight_int8",
+      "offset": 30304,
+      "bytes": 1152,
+      "shape": [
+        8,
+        16,
+        3,
+        3
+      ],
+      "dtype": "int8"
+    },
+    {
+      "name": "upsample_conv2.weight_scale",
+      "offset": 31456,
+      "bytes": 32,
+      "shape": [
+        8
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "upsample_conv2.bias",
+      "offset": 31488,
+      "bytes": 32,
+      "shape": [
+        8
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "upsample_conv3.weight_int8",
+      "offset": 31520,
+      "bytes": 216,
+      "shape": [
+        3,
+        8,
+        3,
+        3
+      ],
+      "dtype": "int8"
+    },
+    {
+      "name": "upsample_conv3.weight_scale",
+      "offset": 31744,
+      "bytes": 12,
+      "shape": [
+        3
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "upsample_conv3.bias",
+      "offset": 31760,
+      "bytes": 12,
+      "shape": [
+        3
+      ],
+      "dtype": "float32"
+    },
+    {
+      "name": "in1.norm_derived",
+      "offset": 31776,
+      "bytes": 256,
+      "dtype": "bytes"
+    },
+    {
+      "name": "in2.norm_derived",
+      "offset": 32032,
+      "bytes": 512,
+      "dtype": "bytes"
+    },
+    {
+      "name": "in3.norm_derived",
+      "offset": 32544,
+      "bytes": 768,
+      "dtype": "bytes"
+    },
+    {
+      "name": "res.0.in1.norm_derived",
+      "offset": 33312,
+      "bytes": 768,
+      "dtype": "bytes"
+    },
+    {
+      "name": "res.0.in2.norm_derived",
+      "offset": 34080,
+      "bytes": 768,
+      "dtype": "bytes"
+    },
+    {
+      "name": "res.1.in1.norm_derived",
+      "offset": 34848,
+      "bytes": 768,
+      "dtype": "bytes"
+    },
+    {
+      "name": "res.1.in2.norm_derived",
+      "offset": 35616,
+      "bytes": 768,
+      "dtype": "bytes"
+    },
+    {
+      "name": "in4.norm_derived",
+      "offset": 36384,
+      "bytes": 512,
+      "dtype": "bytes"
+    },
+    {
+      "name": "in5.norm_derived",
+      "offset": 36896,
+      "bytes": 256,
+      "dtype": "bytes"
+    },
+    {
+      "name": "quant.q1",
+      "offset": 37152,
+      "bytes": 16,
+      "shape": [
+        16
+      ],
+      "dtype": "scale_f32,zero_point_i32"
+    },
+    {
+      "name": "quant.q2",
+      "offset": 37168,
+      "bytes": 16,
+      "shape": [
+        16
+      ],
+      "dtype": "scale_f32,zero_point_i32"
+    },
+    {
+      "name": "quant.q3",
+      "offset": 37184,
+      "bytes": 16,
+      "shape": [
+        16
+      ],
+      "dtype": "scale_f32,zero_point_i32"
+    },
+    {
+      "name": "quant.q4",
+      "offset": 37200,
+      "bytes": 16,
+      "shape": [
+        16
+      ],
+      "dtype": "scale_f32,zero_point_i32"
+    },
+    {
+      "name": "quant.q5",
+      "offset": 37216,
+      "bytes": 16,
+      "shape": [
+        16
+      ],
+      "dtype": "scale_f32,zero_point_i32"
+    },
+    {
+      "name": "quant.q_in",
+      "offset": 37232,
+      "bytes": 16,
+      "shape": [
+        16
+      ],
+      "dtype": "scale_f32,zero_point_i32"
+    },
+    {
+      "name": "quant.q_out",
+      "offset": 37248,
+      "bytes": 16,
+      "shape": [
+        16
+      ],
+      "dtype": "scale_f32,zero_point_i32"
+    },
+    {
+      "name": "quant.res.0.q_out",
+      "offset": 37264,
+      "bytes": 16,
+      "shape": [
+        16
+      ],
+      "dtype": "scale_f32,zero_point_i32"
+    },
+    {
+      "name": "quant.res.0.q_relu",
+      "offset": 37280,
+      "bytes": 16,
+      "shape": [
+        16
+      ],
+      "dtype": "scale_f32,zero_point_i32"
+    },
+    {
+      "name": "quant.res.1.q_out",
+      "offset": 37296,
+      "bytes": 16,
+      "shape": [
+        16
+      ],
+      "dtype": "scale_f32,zero_point_i32"
+    },
+    {
+      "name": "quant.res.1.q_relu",
+      "offset": 37312,
+      "bytes": 16,
+      "shape": [
+        16
+      ],
+      "dtype": "scale_f32,zero_point_i32"
+    },
+    {
+      "name": "resquant.q3",
+      "offset": 37328,
+      "bytes": 16,
+      "shape": [
+        16
+      ],
+      "dtype": "scale_q32_u64,zero_point_i8"
+    },
+    {
+      "name": "resquant.res.0.q_out",
+      "offset": 37344,
+      "bytes": 16,
+      "shape": [
+        16
+      ],
+      "dtype": "scale_q32_u64,zero_point_i8"
+    },
+    {
+      "name": "head.upsample_conv3",
+      "offset": 37360,
+      "bytes": 48,
+      "shape": [
+        48
+      ],
+      "dtype": "scale_q32_u64,bias_q32_u64"
+    },
+    {
+      "name": "tanh_lut",
+      "offset": 37408,
+      "bytes": 16400,
+      "shape": [
+        4100
+      ],
+      "dtype": "q8_16_u32"
+    }
+  ],
+  "passes": [
+    {
+      "flags": 261,
+      "stage_id": 0,
+      "op": 3,
+      "ic": 3,
+      "oc": 8,
+      "in_w": 128,
+      "in_h": 96,
+      "out_w": 128,
+      "out_h": 96,
+      "stride": 1,
+      "upsample": 1,
+      "pad_mode": 1,
+      "layer": "conv1",
+      "norm": "in1",
+      "in_point": "q_in",
+      "mid_point": null,
+      "out_point": "q1",
+      "residual_point": null,
+      "pass_id": 0,
+      "output_base": 0
+    },
+    {
+      "flags": 526,
+      "stage_id": 0,
+      "op": 3,
+      "ic": 8,
+      "oc": 8,
+      "in_w": 128,
+      "in_h": 96,
+      "out_w": 128,
+      "out_h": 96,
+      "stride": 1,
+      "upsample": 1,
+      "pad_mode": 1,
+      "layer": "conv1",
+      "norm": "in1",
+      "in_point": "q_in",
+      "mid_point": null,
+      "out_point": "q1",
+      "residual_point": null,
+      "pass_id": 1,
+      "input_base": 0
+    },
+    {
+      "flags": 5,
+      "stage_id": 1,
+      "op": 3,
+      "ic": 8,
+      "oc": 16,
+      "in_w": 128,
+      "in_h": 96,
+      "out_w": 64,
+      "out_h": 48,
+      "stride": 2,
+      "upsample": 1,
+      "pad_mode": 1,
+      "layer": "conv2",
+      "norm": "in2",
+      "in_point": "q1",
+      "mid_point": null,
+      "out_point": "q2",
+      "residual_point": null,
+      "pass_id": 2
+    },
+    {
+      "flags": 14,
+      "stage_id": 1,
+      "op": 3,
+      "ic": 8,
+      "oc": 16,
+      "in_w": 128,
+      "in_h": 96,
+      "out_w": 64,
+      "out_h": 48,
+      "stride": 2,
+      "upsample": 1,
+      "pad_mode": 1,
+      "layer": "conv2",
+      "norm": "in2",
+      "in_point": "q1",
+      "mid_point": null,
+      "out_point": "q2",
+      "residual_point": null,
+      "pass_id": 3
+    },
+    {
+      "flags": 5,
+      "stage_id": 2,
+      "op": 3,
+      "ic": 16,
+      "oc": 24,
+      "in_w": 64,
+      "in_h": 48,
+      "out_w": 32,
+      "out_h": 24,
+      "stride": 2,
+      "upsample": 1,
+      "pad_mode": 1,
+      "layer": "conv3",
+      "norm": "in3",
+      "in_point": "q2",
+      "mid_point": null,
+      "out_point": "q3",
+      "residual_point": null,
+      "pass_id": 4
+    },
+    {
+      "flags": 14,
+      "stage_id": 2,
+      "op": 3,
+      "ic": 16,
+      "oc": 24,
+      "in_w": 64,
+      "in_h": 48,
+      "out_w": 32,
+      "out_h": 24,
+      "stride": 2,
+      "upsample": 1,
+      "pad_mode": 1,
+      "layer": "conv3",
+      "norm": "in3",
+      "in_point": "q2",
+      "mid_point": null,
+      "out_point": "q3",
+      "residual_point": null,
+      "pass_id": 5
+    },
+    {
+      "flags": 5,
+      "stage_id": 3,
+      "op": 3,
+      "ic": 24,
+      "oc": 24,
+      "in_w": 32,
+      "in_h": 24,
+      "out_w": 32,
+      "out_h": 24,
+      "stride": 1,
+      "upsample": 1,
+      "pad_mode": 1,
+      "layer": "res.0.conv1",
+      "norm": "res.0.in1",
+      "in_point": "q3",
+      "mid_point": null,
+      "out_point": "res.0.q_relu",
+      "residual_point": null,
+      "pass_id": 6
+    },
+    {
+      "flags": 14,
+      "stage_id": 3,
+      "op": 3,
+      "ic": 24,
+      "oc": 24,
+      "in_w": 32,
+      "in_h": 24,
+      "out_w": 32,
+      "out_h": 24,
+      "stride": 1,
+      "upsample": 1,
+      "pad_mode": 1,
+      "layer": "res.0.conv1",
+      "norm": "res.0.in1",
+      "in_point": "q3",
+      "mid_point": null,
+      "out_point": "res.0.q_relu",
+      "residual_point": null,
+      "pass_id": 7
+    },
+    {
+      "flags": 5,
+      "stage_id": 4,
+      "op": 5,
+      "ic": 24,
+      "oc": 24,
+      "in_w": 32,
+      "in_h": 24,
+      "out_w": 32,
+      "out_h": 24,
+      "stride": 1,
+      "upsample": 1,
+      "pad_mode": 1,
+      "layer": "res.0.conv2",
+      "norm": "res.0.in2",
+      "in_point": "res.0.q_relu",
+      "mid_point": null,
+      "out_point": "res.0.q_out",
+      "residual_point": "q3",
+      "pass_id": 8
+    },
+    {
+      "flags": 22,
+      "stage_id": 4,
+      "op": 5,
+      "ic": 24,
+      "oc": 24,
+      "in_w": 32,
+      "in_h": 24,
+      "out_w": 32,
+      "out_h": 24,
+      "stride": 1,
+      "upsample": 1,
+      "pad_mode": 1,
+      "layer": "res.0.conv2",
+      "norm": "res.0.in2",
+      "in_point": "res.0.q_relu",
+      "mid_point": null,
+      "out_point": "res.0.q_out",
+      "residual_point": "q3",
+      "pass_id": 9
+    },
+    {
+      "flags": 5,
+      "stage_id": 5,
+      "op": 3,
+      "ic": 24,
+      "oc": 24,
+      "in_w": 32,
+      "in_h": 24,
+      "out_w": 32,
+      "out_h": 24,
+      "stride": 1,
+      "upsample": 1,
+      "pad_mode": 1,
+      "layer": "res.1.conv1",
+      "norm": "res.1.in1",
+      "in_point": "res.0.q_out",
+      "mid_point": null,
+      "out_point": "res.1.q_relu",
+      "residual_point": null,
+      "pass_id": 10
+    },
+    {
+      "flags": 14,
+      "stage_id": 5,
+      "op": 3,
+      "ic": 24,
+      "oc": 24,
+      "in_w": 32,
+      "in_h": 24,
+      "out_w": 32,
+      "out_h": 24,
+      "stride": 1,
+      "upsample": 1,
+      "pad_mode": 1,
+      "layer": "res.1.conv1",
+      "norm": "res.1.in1",
+      "in_point": "res.0.q_out",
+      "mid_point": null,
+      "out_point": "res.1.q_relu",
+      "residual_point": null,
+      "pass_id": 11
+    },
+    {
+      "flags": 5,
+      "stage_id": 6,
+      "op": 5,
+      "ic": 24,
+      "oc": 24,
+      "in_w": 32,
+      "in_h": 24,
+      "out_w": 32,
+      "out_h": 24,
+      "stride": 1,
+      "upsample": 1,
+      "pad_mode": 1,
+      "layer": "res.1.conv2",
+      "norm": "res.1.in2",
+      "in_point": "res.1.q_relu",
+      "mid_point": null,
+      "out_point": "res.1.q_out",
+      "residual_point": "res.0.q_out",
+      "pass_id": 12
+    },
+    {
+      "flags": 22,
+      "stage_id": 6,
+      "op": 5,
+      "ic": 24,
+      "oc": 24,
+      "in_w": 32,
+      "in_h": 24,
+      "out_w": 32,
+      "out_h": 24,
+      "stride": 1,
+      "upsample": 1,
+      "pad_mode": 1,
+      "layer": "res.1.conv2",
+      "norm": "res.1.in2",
+      "in_point": "res.1.q_relu",
+      "mid_point": null,
+      "out_point": "res.1.q_out",
+      "residual_point": "res.0.q_out",
+      "pass_id": 13
+    },
+    {
+      "flags": 5,
+      "stage_id": 7,
+      "op": 3,
+      "ic": 24,
+      "oc": 16,
+      "in_w": 32,
+      "in_h": 24,
+      "out_w": 64,
+      "out_h": 48,
+      "stride": 1,
+      "upsample": 2,
+      "pad_mode": 1,
+      "layer": "upsample_conv1",
+      "norm": "in4",
+      "in_point": "res.1.q_out",
+      "mid_point": null,
+      "out_point": "q4",
+      "residual_point": null,
+      "pass_id": 14
+    },
+    {
+      "flags": 78,
+      "stage_id": 7,
+      "op": 3,
+      "ic": 24,
+      "oc": 16,
+      "in_w": 32,
+      "in_h": 24,
+      "out_w": 64,
+      "out_h": 48,
+      "stride": 1,
+      "upsample": 2,
+      "pad_mode": 1,
+      "layer": "upsample_conv1",
+      "norm": "in4",
+      "in_point": "res.1.q_out",
+      "mid_point": null,
+      "out_point": "q4",
+      "residual_point": null,
+      "pass_id": 15
+    },
+    {
+      "flags": 5,
+      "stage_id": 8,
+      "op": 3,
+      "ic": 16,
+      "oc": 8,
+      "in_w": 64,
+      "in_h": 48,
+      "out_w": 128,
+      "out_h": 96,
+      "stride": 1,
+      "upsample": 2,
+      "pad_mode": 1,
+      "layer": "upsample_conv2",
+      "norm": "in5",
+      "in_point": "q4",
+      "mid_point": null,
+      "out_point": "q5",
+      "residual_point": null,
+      "pass_id": 16
+    },
+    {
+      "flags": 78,
+      "stage_id": 8,
+      "op": 3,
+      "ic": 16,
+      "oc": 8,
+      "in_w": 64,
+      "in_h": 48,
+      "out_w": 128,
+      "out_h": 96,
+      "stride": 1,
+      "upsample": 2,
+      "pad_mode": 1,
+      "layer": "upsample_conv2",
+      "norm": "in5",
+      "in_point": "q4",
+      "mid_point": null,
+      "out_point": "q5",
+      "residual_point": null,
+      "pass_id": 17
+    },
+    {
+      "stage_id": 9,
+      "op": 4,
+      "ic": 8,
+      "oc": 3,
+      "in_w": 128,
+      "in_h": 96,
+      "out_w": 128,
+      "out_h": 96,
+      "stride": 1,
+      "upsample": 1,
+      "pad_mode": 1,
+      "layer": "upsample_conv3",
+      "norm": null,
+      "in_point": "q5",
+      "mid_point": null,
+      "out_point": "q_out",
+      "residual_point": null,
+      "flags": 162,
+      "head": "upsample_conv3",
+      "pass_id": 18
+    }
+  ]
+}

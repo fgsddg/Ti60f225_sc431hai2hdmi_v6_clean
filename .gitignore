@@ -1,0 +1,27 @@
+# Efinity generated build trees
+/outflow/
+/outflow_*/
+/ooc/
+/work_*/
+/.lock
+
+# Temporary / simulation / IDE caches
+*.log
+*~
+__pycache__/
+*.vvp
+*.vcd
+*.wlf
+.tmp_verify/
+.metadata/
+
+# Keep firmware build outputs (firmware/tinyml_style/build/) in the repository.
+# Keep all validated artifacts, including .bit and .hex.
+
+# IDE generated templates
+debug_TEMPLATE.*
+
+# IP imported simulation/devkit templates
+ip/*/Testbench/
+ip/*/*_devkit/
+ip/*/source/

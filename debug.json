@@ -1,0 +1,31 @@
+{
+    "debug_cores": [
+        {
+            "name": "vio0",
+            "type": "vio",
+            "uuid": "410b463126d1457fa3f6311bc51a882c",
+            "probes": [
+                {
+                    "name": "r_gain",
+                    "width": 16,
+                    "init": "0x118"
+                },
+                {
+                    "name": "g_gain",
+                    "width": 16,
+                    "init": "0xff"
+                },
+                {
+                    "name": "b_gain",
+                    "width": 16,
+                    "init": "0x15e"
+                }
+            ]
+        }
+    ],
+    "session": {
+        "debug_widget": [],
+        "wizard": {}
+    },
+    "jtag_user": "USER1"
+}

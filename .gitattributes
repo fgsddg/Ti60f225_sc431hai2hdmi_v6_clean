@@ -1,0 +1,18 @@
+
+
+# 128x96 style deployment binaries must remain byte-exact.
+deploy/128x96_styles/firmware/*.bin binary
+deploy/128x96_styles/models/**/*.bin binary
+deploy/128x96_styles/models/**/*.pth binary
+deploy/128x96_styles/models/**/*.npz binary
+deploy/128x96_styles/preview/*.png binary
+deploy/128x96_styles/style-images/*.jpg binary
+
+# Validated FPGA images and firmware build outputs must remain byte-exact.
+artifacts/*.bit binary
+artifacts/*.hex binary
+artifacts/*.rpt binary
+deploy/128x96_styles/firmware/*.hex binary
+firmware/tinyml_style/build/*.bin binary
+firmware/tinyml_style/build/*.elf binary
+firmware/tinyml_style/build/*.hex binary

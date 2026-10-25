@@ -1,0 +1,11 @@
+**** Efinity Programming Tool Generation Report *****
+Time: 2026-10-24 22:52
+
+Generated FPGA Soc Image output file: artifacts\ti60f225_128x96_three_styles_flash.hex
+Flash Address  Length      Input Image File
+0x00000000     0x00100142  artifacts\ti60f225_oob_128x96_spiflash_AF7C7FB6.hex
+0x00380000     0x00005fd2  artifacts\tinyml_style_128x96_flashmodels_91D2A5C2_app.hex
+0x003a0000     0x0000d230  deploy\128x96_styles\models\future\style_model.bin
+0x003b0000     0x0000d230  deploy\128x96_styles\models\vangogh\style_model.bin
+0x003c0000     0x0000d230  deploy\128x96_styles\models\cubism\style_model.bin
+

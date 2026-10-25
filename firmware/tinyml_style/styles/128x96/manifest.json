@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "resolution": "128x96",
+  "pass_count": 19,
+  "model_bytes": 53808,
+  "firmware_build": "STYLE_NET_RUN_FRAME=19 STYLE_NET_STREAM=1 STYLE_NET_MULTI_STYLE=1",
+  "styles": [
+    {
+      "id": "future",
+      "uart_key": "1",
+      "ddr_base": "0x04000000",
+      "model_bytes": 53808,
+      "fnv1a32": "0xA5E4CCCB",
+      "sha256": "F5318822A3DED9462EE4D2A4913D24483F02B0F36B85251A05EBB2EFBB6F9E1E",
+      "source_style": "future",
+      "qat_model": "models/lowres_128x96/future/qat_2epoch/future_qat.pth"
+    },
+    {
+      "id": "vangogh",
+      "uart_key": "2",
+      "ddr_base": "0x04010000",
+      "model_bytes": 53808,
+      "fnv1a32": "0xA1467ECF",
+      "sha256": "0F27D4B8F65E6AA63CBB01841C72EAC5EC6F7DAD24C4AAECCE5C65DFD07D9465",
+      "source_style": "VanGogh",
+      "qat_model": "models/lowres_128x96/VanGogh/qat_2epoch/VanGogh_qat.pth"
+    },
+    {
+      "id": "cubism",
+      "uart_key": "3",
+      "ddr_base": "0x04020000",
+      "model_bytes": 53808,
+      "fnv1a32": "0xE0A17F74",
+      "sha256": "D7744666244A5553A38B5C98248D9E4F5A216A382E03F556D8B16B1A466B5216",
+      "source_style": "Three-dimensional",
+      "qat_model": "models/lowres_128x96/qat_2epoch/Three-dimensional_qat.pth"
+    }
+  ]
+}

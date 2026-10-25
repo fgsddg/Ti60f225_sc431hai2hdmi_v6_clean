@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="tinyml.style.default">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="tinyml.style.default" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" description="" id="tinyml.style.default" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+					<folderInfo id="tinyml.style.default." name="/" resourcePath="">
+						<toolChain id="tinyml.style.notoolchain" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
+							<targetPlatform id="tinyml.style.notoolchain.platform" name=""/>
+							<builder id="tinyml.style.builder" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
+							<tool id="tinyml.style.assembly" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="tinyml.style.assembly.inc" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/model&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/style_net&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../driver&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../embedded_sw/my_soc/bsp/efinix/EfxSapphireSoc/include&quot;"/>
+								</option>
+							</tool>
+							<tool id="tinyml.style.cxx" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="tinyml.style.cxx.inc" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/model&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/style_net&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../driver&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../embedded_sw/my_soc/bsp/efinix/EfxSapphireSoc/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../embedded_sw/my_soc/bsp/efinix/EfxSapphireSoc/app&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Efinity\efinity-riscv-ide-2026.1\toolchain\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Efinity\efinity-riscv-ide-2026.1\toolchain\riscv-none-elf\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Efinity\efinity-riscv-ide-2026.1\toolchain\lib\gcc\riscv-none-elf\13.4.0\include&quot;"/>
+								</option>
+							</tool>
+							<tool id="tinyml.style.c" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="tinyml.style.c.inc" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/model&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/src/style_net&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../driver&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../embedded_sw/my_soc/bsp/efinix/EfxSapphireSoc/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../embedded_sw/my_soc/bsp/efinix/EfxSapphireSoc/app&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Efinity\efinity-riscv-ide-2026.1\toolchain\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Efinity\efinity-riscv-ide-2026.1\toolchain\riscv-none-elf\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;D:\Efinity\efinity-riscv-ide-2026.1\toolchain\lib\gcc\riscv-none-elf\13.4.0\include&quot;"/>
+								</option>
+								<option id="tinyml.style.c.symbols" superClass="org.eclipse.cdt.build.core.settings.holder.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="SYSTEM_UART_A_APB=SYSTEM_UART_0_IO_APB"/>
+									<listOptionValue builtIn="false" value="SYSTEM_GPIO_A_APB=SYSTEM_GPIO_0_IO_APB"/>
+									<listOptionValue builtIn="false" value="SYSTEM_I2C_A_APB=SYSTEM_I2C_0_IO_APB"/>
+								</option>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="tinyml_style.null" name="tinyml_style"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>

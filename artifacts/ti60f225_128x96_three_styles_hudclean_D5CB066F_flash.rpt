@@ -1,0 +1,13 @@
+**** Efinity Programming Tool Generation Report *****
+
+Output: artifacts/ti60f225_128x96_three_styles_hudclean_D5CB066F_flash.hex
+Decoded image bytes: 3985968
+HEX file bytes: 11957904
+SHA256: D5CB066F84004D5C68EBBDD7CFDFB5C0721A317DDF31AAAF020F0466E4A551E1
+
+Flash Address  Length      Input Image File
+0x00000000     0x00103F3B  ti60f225_oob_128x96_hudclean_C06330F7.hex
+0x00380000     0x00006392  tinyml_style_128x96_hudclean_6598C2BD.bin
+0x003A0000     0x0000D230  future/style_model.bin
+0x003B0000     0x0000D230  vangogh/style_model.bin
+0x003C0000     0x0000D230  cubism/style_model.bin

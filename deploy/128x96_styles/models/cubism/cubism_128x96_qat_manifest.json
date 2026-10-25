@@ -1,0 +1,462 @@
+{
+  "layers": [
+    {
+      "name": "conv1",
+      "type": "conv",
+      "shape": [
+        8,
+        3,
+        3,
+        3
+      ],
+      "stride": [
+        1,
+        1
+      ],
+      "upsample": null
+    },
+    {
+      "name": "in1",
+      "type": "instancenorm"
+    },
+    {
+      "name": "conv2",
+      "type": "conv",
+      "shape": [
+        16,
+        8,
+        3,
+        3
+      ],
+      "stride": [
+        2,
+        2
+      ],
+      "upsample": null
+    },
+    {
+      "name": "in2",
+      "type": "instancenorm"
+    },
+    {
+      "name": "conv3",
+      "type": "conv",
+      "shape": [
+        24,
+        16,
+        3,
+        3
+      ],
+      "stride": [
+        2,
+        2
+      ],
+      "upsample": null
+    },
+    {
+      "name": "in3",
+      "type": "instancenorm"
+    },
+    {
+      "name": "res.0.conv1",
+      "type": "conv",
+      "shape": [
+        24,
+        24,
+        3,
+        3
+      ],
+      "stride": [
+        1,
+        1
+      ],
+      "upsample": null
+    },
+    {
+      "name": "res.0.in1",
+      "type": "instancenorm"
+    },
+    {
+      "name": "res.0.conv2",
+      "type": "conv",
+      "shape": [
+        24,
+        24,
+        3,
+        3
+      ],
+      "stride": [
+        1,
+        1
+      ],
+      "upsample": null
+    },
+    {
+      "name": "res.0.in2",
+      "type": "instancenorm"
+    },
+    {
+      "name": "res.1.conv1",
+      "type": "conv",
+      "shape": [
+        24,
+        24,
+        3,
+        3
+      ],
+      "stride": [
+        1,
+        1
+      ],
+      "upsample": null
+    },
+    {
+      "name": "res.1.in1",
+      "type": "instancenorm"
+    },
+    {
+      "name": "res.1.conv2",
+      "type": "conv",
+      "shape": [
+        24,
+        24,
+        3,
+        3
+      ],
+      "stride": [
+        1,
+        1
+      ],
+      "upsample": null
+    },
+    {
+      "name": "res.1.in2",
+      "type": "instancenorm"
+    },
+    {
+      "name": "upsample_conv1",
+      "type": "conv",
+      "shape": [
+        16,
+        24,
+        3,
+        3
+      ],
+      "stride": [
+        1,
+        1
+      ],
+      "upsample": 2
+    },
+    {
+      "name": "in4",
+      "type": "instancenorm"
+    },
+    {
+      "name": "upsample_conv2",
+      "type": "conv",
+      "shape": [
+        8,
+        16,
+        3,
+        3
+      ],
+      "stride": [
+        1,
+        1
+      ],
+      "upsample": 2
+    },
+    {
+      "name": "in5",
+      "type": "instancenorm"
+    },
+    {
+      "name": "upsample_conv3",
+      "type": "conv",
+      "shape": [
+        3,
+        8,
+        3,
+        3
+      ],
+      "stride": [
+        1,
+        1
+      ],
+      "upsample": null
+    }
+  ],
+  "quant_points": {
+    "res.0.q_relu": {
+      "scale": 0.026553265750408173,
+      "zero_point": -128,
+      "min": 0.0,
+      "max": 6.771082878112793,
+      "frozen": true
+    },
+    "res.0.q_out": {
+      "scale": 0.06603910028934479,
+      "zero_point": -26,
+      "min": -6.738089084625244,
+      "max": 10.10188102722168,
+      "frozen": true
+    },
+    "res.1.q_relu": {
+      "scale": 0.027423378080129623,
+      "zero_point": -128,
+      "min": 0.0,
+      "max": 6.992961406707764,
+      "frozen": true
+    },
+    "res.1.q_out": {
+      "scale": 0.08737967908382416,
+      "zero_point": 1,
+      "min": -11.262160301208496,
+      "max": 11.019658088684082,
+      "frozen": true
+    },
+    "q_in": {
+      "scale": 1.0,
+      "zero_point": -128,
+      "min": 0.0,
+      "max": 255.0,
+      "frozen": true
+    },
+    "q1": {
+      "scale": 0.04029938951134682,
+      "zero_point": -128,
+      "min": 0.0,
+      "max": 10.276344299316406,
+      "frozen": true
+    },
+    "q2": {
+      "scale": 0.03700508177280426,
+      "zero_point": -128,
+      "min": 0.0,
+      "max": 9.436295509338379,
+      "frozen": true
+    },
+    "q3": {
+      "scale": 0.03253768011927605,
+      "zero_point": -128,
+      "min": 0.0,
+      "max": 8.29710865020752,
+      "frozen": true
+    },
+    "q4": {
+      "scale": 0.024299969896674156,
+      "zero_point": -128,
+      "min": 0.0,
+      "max": 6.1964921951293945,
+      "frozen": true
+    },
+    "q5": {
+      "scale": 0.016134535893797874,
+      "zero_point": -128,
+      "min": 0.0,
+      "max": 4.114306449890137,
+      "frozen": true
+    },
+    "q_out": {
+      "scale": 1.0,
+      "zero_point": -128,
+      "min": 0.0,
+      "max": 255.0,
+      "frozen": true
+    }
+  },
+  "execution": {
+    "input": {
+      "layout": "HWC",
+      "dtype": "uint8",
+      "point": "q_in",
+      "range": [
+        0,
+        255
+      ]
+    },
+    "output": {
+      "layout": "HWC",
+      "dtype": "uint8",
+      "point": "q_out",
+      "range": [
+        0,
+        255
+      ]
+    },
+    "rounding": "half_to_even",
+    "accumulator": "int32",
+    "instancenorm_stats": "fp32 (int32 sum/sumsq on FPGA)",
+    "notes": "reflect pad 在 conv 之前；instancenorm 为 per-channel 有偏方差；残差分支的 conv2 输出不做量化，相加后再量化",
+    "stages": [
+      {
+        "type": "conv_norm_relu_quant",
+        "layer": "conv1",
+        "in_point": "q_in",
+        "out_point": "q1",
+        "kernel": 3,
+        "stride": 1,
+        "upsample": 1,
+        "pad": "reflect",
+        "norm": {
+          "type": "instancenorm",
+          "name": "in1",
+          "eps": 1e-05,
+          "affine": true
+        },
+        "relu": true
+      },
+      {
+        "type": "conv_norm_relu_quant",
+        "layer": "conv2",
+        "in_point": "q1",
+        "out_point": "q2",
+        "kernel": 3,
+        "stride": 2,
+        "upsample": 1,
+        "pad": "reflect",
+        "norm": {
+          "type": "instancenorm",
+          "name": "in2",
+          "eps": 1e-05,
+          "affine": true
+        },
+        "relu": true
+      },
+      {
+        "type": "conv_norm_relu_quant",
+        "layer": "conv3",
+        "in_point": "q2",
+        "out_point": "q3",
+        "kernel": 3,
+        "stride": 2,
+        "upsample": 1,
+        "pad": "reflect",
+        "norm": {
+          "type": "instancenorm",
+          "name": "in3",
+          "eps": 1e-05,
+          "affine": true
+        },
+        "relu": true
+      },
+      {
+        "type": "residual",
+        "layer": "res.0",
+        "in_point": "q3",
+        "mid_point": "res.0.q_relu",
+        "out_point": "res.0.q_out",
+        "conv1": "res.0.conv1",
+        "conv2": "res.0.conv2",
+        "norm1": {
+          "type": "instancenorm",
+          "name": "res.0.in1",
+          "eps": 1e-05,
+          "affine": true
+        },
+        "norm2": {
+          "type": "instancenorm",
+          "name": "res.0.in2",
+          "eps": 1e-05,
+          "affine": true
+        },
+        "relu": true,
+        "pad": "reflect",
+        "kernel": 3,
+        "stride": 1,
+        "upsample": 1
+      },
+      {
+        "type": "residual",
+        "layer": "res.1",
+        "in_point": "res.0.q_out",
+        "mid_point": "res.1.q_relu",
+        "out_point": "res.1.q_out",
+        "conv1": "res.1.conv1",
+        "conv2": "res.1.conv2",
+        "norm1": {
+          "type": "instancenorm",
+          "name": "res.1.in1",
+          "eps": 1e-05,
+          "affine": true
+        },
+        "norm2": {
+          "type": "instancenorm",
+          "name": "res.1.in2",
+          "eps": 1e-05,
+          "affine": true
+        },
+        "relu": true,
+        "pad": "reflect",
+        "kernel": 3,
+        "stride": 1,
+        "upsample": 1
+      },
+      {
+        "type": "conv_norm_relu_quant",
+        "layer": "upsample_conv1",
+        "in_point": "res.1.q_out",
+        "out_point": "q4",
+        "kernel": 3,
+        "stride": 1,
+        "upsample": 2,
+        "pad": "reflect",
+        "norm": {
+          "type": "instancenorm",
+          "name": "in4",
+          "eps": 1e-05,
+          "affine": true
+        },
+        "relu": true
+      },
+      {
+        "type": "conv_norm_relu_quant",
+        "layer": "upsample_conv2",
+        "in_point": "q4",
+        "out_point": "q5",
+        "kernel": 3,
+        "stride": 1,
+        "upsample": 2,
+        "pad": "reflect",
+        "norm": {
+          "type": "instancenorm",
+          "name": "in5",
+          "eps": 1e-05,
+          "affine": true
+        },
+        "relu": true
+      },
+      {
+        "type": "conv_tanh_quant",
+        "layer": "upsample_conv3",
+        "in_point": "q5",
+        "out_point": "q_out",
+        "kernel": 3,
+        "stride": 1,
+        "upsample": 1,
+        "pad": "reflect",
+        "head": "127.5*tanh(y)+127.5"
+      }
+    ]
+  },
+  "calibration": {
+    "images": 0,
+    "dir": "",
+    "size": "256",
+    "applied": false,
+    "note": "校准张数必须与 sim_int8.py --check --calibrate 一致，否则参考不可比"
+  },
+  "topology": {
+    "filters": [
+      3,
+      8,
+      16,
+      24
+    ],
+    "num_res_blocks": 2,
+    "first_kernel": 3,
+    "last_kernel": 3,
+    "bounded_output": true
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "version": 5,
+  "resolution": "128x96",
+  "pass_count": 19,
+  "bitstream": {
+    "path": "artifacts/ti60f225_oob_128x96_hudclean_6071F0BA.bit",
+    "sha256": "6071F0BAEEA09E7DDCC62BD859913A0F05E3CE89F961BB973615170D7412174F",
+    "flash_hex_path": "artifacts/ti60f225_oob_128x96_hudclean_C06330F7.hex",
+    "flash_hex_sha256": "C06330F7937BF71D975E08B615A6EEC09BAC003F61DA65E85F1FF1AE56F366D5",
+    "spi_flash_user_access": true
+  },
+  "multistyle_firmware": {
+    "path": "deploy/128x96_styles/firmware/tinyml_style_128x96_hudclean_6598C2BD.bin",
+    "bytes": 25490,
+    "sha256": "6598C2BDF3EB7DE36B42F98178A05D020CEA5BEAC2C5567362152E2E7626712C",
+    "ram_bytes": 30080,
+    "ram_total": 126976,
+    "build_flags": "STYLE_NET_RUN_FRAME=19 STYLE_NET_STREAM=1 STYLE_NET_MULTI_STYLE=1",
+    "model_source": "configuration flash via SoC SPI0; JTAG-preloaded models are reused when valid",
+    "abi_version": "0x00010001"
+  },
+  "styles": [
+    {
+      "id": "future",
+      "label": "Future",
+      "uart_key": "1",
+      "ddr_base": "0x04000000",
+      "fnv1a32": "0xA5E4CCCB",
+      "model": "models/future/style_model.bin",
+      "model_sha256": "F5318822A3DED9462EE4D2A4913D24483F02B0F36B85251A05EBB2EFBB6F9E1E",
+      "qat_model": "models/future/future_qat.pth",
+      "int8_npz": "models/future/future_128x96_qat_int8.npz",
+      "legacy_firmware": "firmware/tinyml_style_128x96_future_legacy.bin",
+      "legacy_firmware_sha256": "4913994C4C767739AF13A8E4A1E03BEFA672402401482C6AE35E03034C48C933",
+      "source_style": "future",
+      "flash_base": "0x003A0000"
+    },
+    {
+      "id": "vangogh",
+      "label": "Van Gogh",
+      "uart_key": "2",
+      "ddr_base": "0x04010000",
+      "fnv1a32": "0xA1467ECF",
+      "model": "models/vangogh/style_model.bin",
+      "model_sha256": "0F27D4B8F65E6AA63CBB01841C72EAC5EC6F7DAD24C4AAECCE5C65DFD07D9465",
+      "qat_model": "models/vangogh/vangogh_qat.pth",
+      "int8_npz": "models/vangogh/vangogh_128x96_qat_int8.npz",
+      "legacy_firmware": "firmware/tinyml_style_128x96_vangogh_legacy.bin",
+      "legacy_firmware_sha256": "5E8673540355841763645ECBC2971EC36C015EBE8229DCD2E5D97E41574C6652",
+      "source_style": "vangogh",
+      "flash_base": "0x003B0000"
+    },
+    {
+      "id": "cubism",
+      "label": "Cubism / Three-dimensional",
+      "uart_key": "3",
+      "ddr_base": "0x04020000",
+      "fnv1a32": "0xE0A17F74",
+      "model": "models/cubism/style_model.bin",
+      "model_sha256": "D7744666244A5553A38B5C98248D9E4F5A216A382E03F556D8B16B1A466B5216",
+      "qat_model": "models/cubism/cubism_qat.pth",
+      "int8_npz": "models/cubism/cubism_128x96_qat_int8.npz",
+      "legacy_firmware": "firmware/tinyml_style_128x96_cubism_legacy.bin",
+      "legacy_firmware_sha256": "29792982446C26E505D1D745D9765A4639B4AB0E637355AC1396E4F5C57F69EB",
+      "source_style": "Three-dimensional",
+      "flash_base": "0x003C0000"
+    }
+  ],
+  "key0": {
+    "pin": "GPIOL_07",
+    "package_pin": "C4",
+    "active_low": true,
+    "action": "tap only: cycle styles; no long-press function"
+  },
+  "previous_multistyle_firmware": {
+    "path": "deploy/128x96_styles/firmware/tinyml_style_128x96_multistyle_DD147E74.bin",
+    "sha256": "DD147E74AF397368891419C242091A1183523A56B154074D006DC2C0BE401200",
+    "required_bitstream_sha256": "FF2E4455E79F239D05F60F85F221D836CE34496E422359B3E832148319442FA4"
+  },
+  "osd_fps": {
+    "original_mode_source": "camera_frame_pulse from w_mipi_rx_vs (sensor frame rate)",
+    "styled_mode_source": "processed_frame_completion (qout_bank_sel toggle)",
+    "split_mode_source": "processed_frame_completion (right half is styled)",
+    "reference_clock_hz": 24750000,
+    "not_hdmi_vsync": true,
+    "background_box": false,
+    "not_frame_buffer_rate": true
+  },
+  "fps_compute_only": 13.64,
+  "fps_end_to_end": 10.0,
+  "split_compare": {
+    "left": "original 640x480, x < 320",
+    "right": "style output 640x480, x >= 320",
+    "extra_frame_buffer": false,
+    "timing": "qout reader genlocked to scaled_de/hs/vs; original delayed one pixel clock"
+  },
+  "display_keys": {
+    "key1": {
+      "pin": "GPIOR_22",
+      "package_pin": "P14",
+      "action": "full styled; press again returns split"
+    },
+    "key2": {
+      "pin": "GPIOR_21",
+      "package_pin": "N14",
+      "action": "style strength +16 (also enters mix mode)"
+    },
+    "key3": {
+      "pin": "GPIOL_03",
+      "package_pin": "A3",
+      "active_low": true,
+      "action": "style strength -16 (also enters mix mode)"
+    },
+    "default": "interpolation mode at strength 255 (100% style)",
+    "debounce_ms": 10,
+    "uart_debug": "0=split, 5=styled, 6=mix",
+    "pin_source": "01_Ti60F225_Key_led_osc_demo/01_Ti60F225_key_demo"
+  },
+  "camera": {
+    "sensor": "SC431HAI",
+    "exposure_registers": "0x3E00=0x00, 0x3E01=0xBA, 0x3E02=0xD0",
+    "target_fps": 30.0
+  },
+  "flash_image": {
+    "path": "artifacts/ti60f225_128x96_three_styles_hudclean_D5CB066F_flash.hex",
+    "bytes": 11957904,
+    "sha256": "D5CB066F84004D5C68EBBDD7CFDFB5C0721A317DDF31AAAF020F0466E4A551E1"
+  },
+  "flash_layout": [
+    {
+      "name": "bitstream",
+      "address": "0x00000000"
+    },
+    {
+      "name": "firmware",
+      "address": "0x00380000"
+    },
+    {
+      "name": "future",
+      "address": "0x003A0000"
+    },
+    {
+      "name": "vangogh",
+      "address": "0x003B0000"
+    },
+    {
+      "name": "cubism",
+      "address": "0x003C0000"
+    }
+  ],
+  "feature": "default 100% style interpolation, KEY0 style cycle only, KEY2 +, KEY3 -, borderless Chinese HUD, no original-mode key",
+  "style_intensity": {
+    "register": "0xA4",
+    "range": "0..255",
+    "default": 255,
+    "default_display_mode": "3 (mix)",
+    "formula": "mixed = original + (styled-original)*strength/255",
+    "hud_hold_ms": 3500,
+    "key_controls": "KEY2=+16; KEY3=-16",
+    "hud": "borderless Chinese label + strength bar on adjustment; FPS hidden in mix mode",
+    "uart": "6=mix, +=step +16, -=step -16, i=read"
+  },
+  "resources": {
+    "xlr": "57036 / 60800 (93.81%)",
+    "memory_blocks": "251 / 256 (98.05%)",
+    "dsp_blocks": "108 / 160 (67.50%)"
+  },
+  "timing": {
+    "setup_wns_ns": 0.169,
+    "hold_whs_ns": 0.008,
+    "notes": "Efinity 2026.1 I3, direct efx_pnr without auto-debug insert"
+  }
+}
