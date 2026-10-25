@@ -1,0 +1,11 @@
+**** Efinity Programming Tool Generation Report *****
+Time: 2026-10-25 18:53
+
+Generated FPGA Soc Image output file: D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\outflow\combine.hex
+Flash Address  Length      Input Image File
+0x00000000     0x00109cf2  D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/outflow/ti60f225_oob.hex
+0x00380000     0x00006392  D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/firmware/tinyml_style/build/tinyml_style.bin
+0x003a0000     0x0000d230  D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/firmware/tinyml_style/styles/128x96/future/style_model.bin
+0x003b0000     0x0000d230  D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/firmware/tinyml_style/styles/128x96/vangogh/style_model.bin
+0x003c0000     0x0000d230  D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/firmware/tinyml_style/styles/128x96/cubism/style_model.bin
+

@@ -1,0 +1,18 @@
+sep=\t
+Module Resource Usage Distribution Estimates
+Generated at: Oct 25, 2026 18:23:14
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	       FFs	      SRLs	      ADDs	      LUTs	    COMB4s	      RAMs	 DSP/MULTs
+edb_top:edb_top                                             	   603(0)	     1(0)	   163(0)	   938(0)	     0(0)	     1(0)	     0(0)	
+ +la0:edb_la_top_4a2f80342142420684bb4d0a83b79ba3(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b11001100100000000101101100011100101100000010111001001110100101101000010100001000010011011111111101011010000001000001001111001010,PROBE0_TYPE=1)	 516(315)	     1(0)	  163(43)	 899(352)	     0(0)	     1(0)	     0(0)	
+  +axi_crc_i:edb_adbg_crc32_4a2f80342142420684bb4d0a83b79ba3	   32(32)	     0(0)	     0(0)	   37(37)	     0(0)	     0(0)	     0(0)	
+  +GEN_PROBE[0].genblk7.genblk3.trigger_cu:compare_unit_4a2f80342142420684bb4d0a83b79ba3(WIDTH=11'b01,PIPE=1)	     7(7)	     0(0)	     0(0)	     7(7)	     0(0)	     0(0)	     0(0)	
+  +trigger_tu:trigger_unit_4a2f80342142420684bb4d0a83b79ba3(WIDTH=32'b01,PIPE=1)	     1(1)	     0(0)	     0(0)	     1(1)	     0(0)	     0(0)	     0(0)	
+  +trigger_skipper_n:trigger_skipper_4a2f80342142420684bb4d0a83b79ba3	   65(65)	     0(0)	   63(63)	 231(231)	     0(0)	     0(0)	     0(0)	
+  +la_biu_inst:la_biu_4a2f80342142420684bb4d0a83b79ba3(CAPTURE_WIDTH=32'b01,DATA_DEPTH=4096)	   96(34)	     1(0)	    57(0)	 271(156)	     0(0)	     1(0)	     0(0)	
+   +fifo_with_read_inst:fifo_with_read_4a2f80342142420684bb4d0a83b79ba3(DATA_WIDTH=32'b010,ADDR_WIDTH=12,PIPE=0)	   62(62)	     1(1)	   57(57)	  115(46)	     0(0)	     1(0)	     0(0)	
+    +transcode_write_addr:fifo_address_trancode_unit_4a2f80342142420684bb4d0a83b79ba3(TOTAL_ADDR_WIDTH=12,CELL_ADDR_WIDTH=13,PIPE=0)	     0(0)	     0(0)	     0(0)	   68(68)	     0(0)	     0(0)	     0(0)	
+    +simple_dual_port_ram_inst:edb_simple_dual_port_ram_4a2f80342142420684bb4d0a83b79ba3(DATA_WIDTH=32'b010,ADDR_WIDTH=12,RAM_INIT_FILE="")	     0(0)	     0(0)	     0(0)	     1(1)	     0(0)	     1(1)	     0(0)	
+ +debug_hub_inst:debug_hub_4a2f80342142420684bb4d0a83b79ba3 	   87(87)	     0(0)	     0(0)	   39(39)	     0(0)	     0(0)	     0(0)	

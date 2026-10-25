@@ -1,0 +1,27 @@
+--ramHex "D:\Efinity\2026.1\ipm\ip\efx_soc\efx_soc\generator\bootloader\bootloader_124K.hex"
+--uart name=system_uart_0_io,address=0x010000,interruptId=1,fifoDepth=128
+--ddrAAxi4
+--apbSlave name=io_apbSlave_0,address=0x100000,size=65536
+--ddrAEnable true
+--Atomic false
+--hardwareBreakpoints 0
+--ddrASize 0xe0000000
+--apbBridgeAddress 0xf8000000
+--customInstruction false
+--interrupt name=userInterruptA,id=16
+--cpuCount 1
+--onChipRamAddress 0xf9000000
+--softTap false
+--withRiscvDebugPriv
+--FpuDouble false
+--ddrAIdWidth 8
+--axiAEnable false
+--L1I false
+--systemFrequency 100000000
+--onChipRamSize 0x1000
+--Linux false
+--ddrADataWidth 128
+--PeripheralClock false
+--spi name=system_spi_0_io,address=0x014000,interruptId=4,width=8,ssCount=1,fifoDepth=256
+--L1D false
+--Fpu false

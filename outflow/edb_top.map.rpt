@@ -1,0 +1,219 @@
+Efinity Synthesis report for project edb_top
+Version: 2026.1.132.4.5
+Generated at: Oct 25, 2026 18:23:14
+Copyright (C) 2013 - 2026  All rights reserved.
+
+Top-level Entity Name : edb_top
+
+family : Titanium
+device : Ti60F225
+project : edb_top
+root : edb_top
+I,include : D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean
+I,include : D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/ip/axi_xbar
+I,include : D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/ip/my_soc
+insert-ios : 0
+insert-gclk : 0
+max-carry-cascade : 320
+max-dsp-cascade : 16
+max_mult : -1
+max_ram : -1
+mode : speed
+num_srl : -1
+gen-mark-debug-json : 0
+keep-gclk-in-module : 1
+mult-decomp-retime : 0
+output-dir : D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/outflow
+project : edb_top
+retiming : 0
+root : edb_top
+seq_opt : 0
+work-dir : D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg
+write-postmap-module : D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.post.vdb
+
+File List:
+
+D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v
+
+### ### Report Section Start ### ###
+
+"MEM|SYN-0677" : ... Memory 'ram' is not initialized, assuming empty initial contents. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:425)
+
+### ### EFX_FF CE enables (begin) ### ### ###
+
+Total number of enable signals: 26
+Total number of FFs with enable signals: 571
++------------------------------------------------+------------------+
+|CE Signal                                       |Number of FF loads|
++------------------------------------------------+------------------+
+|debug_hub_inst/n96                              |               82 |
+|la0/n1631                                       |               64 |
+|ceg_net8                                        |               64 |
+|la0/tu_trigger                                  |               64 |
+|la0/n1114                                       |               64 |
+|ceg_net19                                       |               32 |
+|la0/addr_ct_en                                  |               27 |
+|ceg_net24                                       |               26 |
+|la0/n1764                                       |               22 |
+|la0/n4342                                       |               21 |
+|la0/word_ct_en                                  |               16 |
+|la0/la_biu_inst/n350                            |               13 |
+|la0/regsel_ld_en                                |               13 |
+|la0/la_biu_inst/fifo_with_read_inst/is_last_data|               12 |
+|la0/la_biu_inst/n2089                           |               12 |
+|la0/la_biu_inst/fifo_push                       |               12 |
+|ceg_net2                                        |                6 |
+|debug_hub_inst/n267                             |                4 |
+|la0/op_reg_en                                   |                4 |
+|ceg_net5                                        |                3 |
+|la0/la_biu_inst/data_o_en                       |                3 |
+|la0/n2620                                       |                3 |
+|ceg_net27                                       |                1 |
+|debug_hub_inst/n265                             |                1 |
+|ceg_net14                                       |                1 |
+|la0/trigger_skipper_n/equal_6/n127              |                1 |
++------------------------------------------------+------------------+
+
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+
+Total number of set/reset signals: 10
+Total number of FFs with set/reset signals: 590
++----------------------------------------+------------------+
+|SR Signal                               |Number of FF loads|
++----------------------------------------+------------------+
+|edb_soft_reset                          |              361 |
+|bscan_RESET                             |               83 |
+|la0/ts_resetn                           |               64 |
+|la0/la_biu_inst/fifo_with_read_inst/n731|               37 |
+|la0/la_biu_inst/fifo_rstn               |               25 |
+|la0/la_resetn                           |               15 |
+|la0/n2607                               |                2 |
+|la0/la_biu_inst/n2103                   |                1 |
+|la0/trigger_skipper_n/n469              |                1 |
+|la0/n4788                               |                1 |
++----------------------------------------+------------------+
+
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Sequential Elements/Signals Trimming Report (begin) ### ### ### 
+'la0/data_from_biu[2]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[3]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[4]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[5]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[6]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[7]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[8]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[9]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[10]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[11]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[12]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[13]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[14]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[15]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[16]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[17]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[18]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[19]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[20]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[21]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[22]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[23]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[24]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[25]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[26]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[27]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[28]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[29]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[30]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[31]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[32]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[33]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[34]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[35]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[36]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[37]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[38]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[39]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[40]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[41]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[42]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[43]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[44]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[45]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[46]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[47]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[48]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[49]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[50]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[51]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[52]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[53]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[54]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[55]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[56]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[57]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[58]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[59]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[60]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[61]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[62]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/data_from_biu[63]' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3435) (optimized to 0)
+'la0/GEN_PROBE[0].genblk7.genblk3.trigger_cu/genblk1.genblk1.exp2' (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:5575) (merged to equivalence)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                             FFs      SRLs      ADDs      LUTs    COMB4s      RAMs DSP/MULTs
+------------------------------------------------------------       ---      ----      ----      ----      ----      ---- ---------
+edb_top:edb_top                                                 603(0)      1(0)    163(0)    938(0)      0(0)      1(0)      0(0)
+ +la0:edb_la_top_4a2f80342142420684bb4d0a83b79ba3(DATA_DE...  516(315)      1(0)   163(43)  899(352)      0(0)      1(0)      0(0)
+  +axi_crc_i:edb_adbg_crc32_4a2f80342142420684bb4d0a83b79ba3    32(32)      0(0)      0(0)    37(37)      0(0)      0(0)      0(0)
+  +GEN_PROBE[0].genblk7.genblk3.trigger_cu:compare_unit_4...      7(7)      0(0)      0(0)      7(7)      0(0)      0(0)      0(0)
+  +trigger_tu:trigger_unit_4a2f80342142420684bb4d0a83b79b...      1(1)      0(0)      0(0)      1(1)      0(0)      0(0)      0(0)
+  +trigger_skipper_n:trigger_skipper_4a2f80342142420684bb...    65(65)      0(0)    63(63)  231(231)      0(0)      0(0)      0(0)
+  +la_biu_inst:la_biu_4a2f80342142420684bb4d0a83b79ba3(CA...    96(34)      1(0)     57(0)  271(156)      0(0)      1(0)      0(0)
+   +fifo_with_read_inst:fifo_with_read_4a2f80342142420684...    62(62)      1(1)    57(57)   115(46)      0(0)      1(0)      0(0)
+    +transcode_write_addr:fifo_address_trancode_unit_4a2f...      0(0)      0(0)      0(0)    68(68)      0(0)      0(0)      0(0)
+    +simple_dual_port_ram_inst:edb_simple_dual_port_ram_4...      0(0)      0(0)      0(0)      1(1)      0(0)      1(1)      0(0)
+ +debug_hub_inst:debug_hub_4a2f80342142420684bb4d0a83b79ba3     87(87)      0(0)      0(0)    39(39)      0(0)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### DSP Usage Report (begin) ### ### ### 
+
+ No DSP in design
+
+### ### Clock Load Distribution Report (begin) ### ###
+
++---------+----------+----------+------------+----------------+
+|Clock    |Flip-Flops|Shift-Regs|Memory Ports|Multipliers/DSPs|
++---------+----------+----------+------------+----------------+
+|bscan_TCK|      448 |        0 |          0 |              0 |
+|la0_clk  |      155 |        1 |          2 |              0 |
++---------+----------+----------+------------+----------------+
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+
+INPUT  PORTS    : 	12
+OUTPUT PORTS    : 	1
+
+EFX_ADD                 : 	163
+EFX_LUT4                : 	938
+   1-2  Inputs          : 	219
+   3    Inputs          : 	240
+   4    Inputs          : 	479
+EFX_FF                  : 	603
+EFX_SRL8                : 	1
+EFX_RAM10               : 	1
+EFX_GBUFCE              : 	1
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 5s
+Elapsed synthesis time : 5s

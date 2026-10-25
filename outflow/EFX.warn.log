@@ -1,0 +1,314 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2026 18:01:15
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe1' remains unconnected for this instance (VERI-1927) (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:114)
+[EFX-0011 VERI-WARNING] input port 'probe1[0]' remains unconnected for this instance (VDB-1053) (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:5516)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:5517)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:5727)
+[EFX-0200 WARNING] Removing redundant signal : clk. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:4550)
+[EFX-0200 WARNING] Removing redundant signal : full. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:4604)
+[EFX-0200 WARNING] Removing redundant signal : shift_i. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:4874)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:4891)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:4892)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:1033)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RESET. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:1034)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:1035)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:1036)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:1040)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:1052)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3471)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:272)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:273)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:275)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:280)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe1[0]' in module 'edb_la_top_fc00e24bdcc54c3783ad2c6b957ef50a(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b01100001001011001011011000100111001110111011001001000011001011011001010111001100101111000010101010100010010010001100110100010001,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe2[0]' in module 'edb_la_top_fc00e24bdcc54c3783ad2c6b957ef50a(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b01100001001011001011011000100111001110111011001001000011001011011001010111001100101111000010101010100010010010001100110100010001,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe3[0]' in module 'edb_la_top_fc00e24bdcc54c3783ad2c6b957ef50a(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b01100001001011001011011000100111001110111011001001000011001011011001010111001100101111000010101010100010010010001100110100010001,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe4[0]' in module 'edb_la_top_fc00e24bdcc54c3783ad2c6b957ef50a(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b01100001001011001011011000100111001110111011001001000011001011011001010111001100101111000010101010100010010010001100110100010001,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe5[0]' in module 'edb_la_top_fc00e24bdcc54c3783ad2c6b957ef50a(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b01100001001011001011011000100111001110111011001001000011001011011001010111001100101111000010101010100010010010001100110100010001,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe6[0]' in module 'edb_la_top_fc00e24bdcc54c3783ad2c6b957ef50a(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b01100001001011001011011000100111001110111011001001000011001011011001010111001100101111000010101010100010010010001100110100010001,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe7[0]' in module 'edb_la_top_fc00e24bdcc54c3783ad2c6b957ef50a(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b01100001001011001011011000100111001110111011001001000011001011011001010111001100101111000010101010100010010010001100110100010001,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe8[0]' in module 'edb_la_top_fc00e24bdcc54c3783ad2c6b957ef50a(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b01100001001011001011011000100111001110111011001001000011001011011001010111001100101111000010101010100010010010001100110100010001,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe9[0]' in module 'edb_la_top_fc00e24bdcc54c3783ad2c6b957ef50a(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b01100001001011001011011000100111001110111011001001000011001011011001010111001100101111000010101010100010010010001100110100010001,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe10[0]' in module 'edb_la_top_fc00e24bdcc54c3783ad2c6b957ef50a(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b01100001001011001011011000100111001110111011001001000011001011011001010111001100101111000010101010100010010010001100110100010001,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:17)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:19)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:24)
+[EFX-0011 VERI-WARNING] Found 3 warnings in the post-synthesis netlist. 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2026 18:01:21
+///////////////////////////////////
+
+[EFX-0256 WARNING] The primary output port 'pll_inst4_RSTN' wire 'pll_inst4_RSTN' is not driven.
+[EFX-0256 WARNING] The primary output port 'led[3]' wire 'led[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'led[2]' wire 'led[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'led[1]' wire 'led[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_LP_P_OUT' wire 'mipi_dp_clk_LP_P_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_LP_N_OUT' wire 'mipi_dp_clk_LP_N_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_HS_OUT[7]' wire 'mipi_dp_clk_HS_OUT[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_HS_OUT[6]' wire 'mipi_dp_clk_HS_OUT[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_HS_OUT[5]' wire 'mipi_dp_clk_HS_OUT[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_HS_OUT[4]' wire 'mipi_dp_clk_HS_OUT[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_HS_OUT[3]' wire 'mipi_dp_clk_HS_OUT[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_HS_OUT[2]' wire 'mipi_dp_clk_HS_OUT[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_HS_OUT[1]' wire 'mipi_dp_clk_HS_OUT[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_HS_OUT[0]' wire 'mipi_dp_clk_HS_OUT[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_HS_OE' wire 'mipi_dp_clk_HS_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_LP_P_OUT' wire 'mipi_dp_data3_LP_P_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_LP_P_OUT' wire 'mipi_dp_data2_LP_P_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_LP_P_OUT' wire 'mipi_dp_data1_LP_P_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_LP_P_OUT' wire 'mipi_dp_data0_LP_P_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_LP_N_OUT' wire 'mipi_dp_data3_LP_N_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_LP_N_OUT' wire 'mipi_dp_data2_LP_N_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_LP_N_OUT' wire 'mipi_dp_data1_LP_N_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_LP_N_OUT' wire 'mipi_dp_data0_LP_N_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_HS_OUT[7]' wire 'mipi_dp_data0_HS_OUT[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_HS_OUT[6]' wire 'mipi_dp_data0_HS_OUT[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_HS_OUT[5]' wire 'mipi_dp_data0_HS_OUT[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_HS_OUT[4]' wire 'mipi_dp_data0_HS_OUT[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_HS_OUT[3]' wire 'mipi_dp_data0_HS_OUT[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_HS_OUT[2]' wire 'mipi_dp_data0_HS_OUT[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_HS_OUT[1]' wire 'mipi_dp_data0_HS_OUT[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_HS_OUT[0]' wire 'mipi_dp_data0_HS_OUT[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_HS_OUT[7]' wire 'mipi_dp_data1_HS_OUT[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_HS_OUT[6]' wire 'mipi_dp_data1_HS_OUT[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_HS_OUT[5]' wire 'mipi_dp_data1_HS_OUT[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_HS_OUT[4]' wire 'mipi_dp_data1_HS_OUT[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_HS_OUT[3]' wire 'mipi_dp_data1_HS_OUT[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_HS_OUT[2]' wire 'mipi_dp_data1_HS_OUT[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_HS_OUT[1]' wire 'mipi_dp_data1_HS_OUT[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_HS_OUT[0]' wire 'mipi_dp_data1_HS_OUT[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_HS_OUT[7]' wire 'mipi_dp_data2_HS_OUT[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_HS_OUT[6]' wire 'mipi_dp_data2_HS_OUT[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_HS_OUT[5]' wire 'mipi_dp_data2_HS_OUT[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_HS_OUT[4]' wire 'mipi_dp_data2_HS_OUT[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_HS_OUT[3]' wire 'mipi_dp_data2_HS_OUT[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_HS_OUT[2]' wire 'mipi_dp_data2_HS_OUT[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_HS_OUT[1]' wire 'mipi_dp_data2_HS_OUT[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_HS_OUT[0]' wire 'mipi_dp_data2_HS_OUT[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_HS_OUT[7]' wire 'mipi_dp_data3_HS_OUT[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_HS_OUT[6]' wire 'mipi_dp_data3_HS_OUT[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_HS_OUT[5]' wire 'mipi_dp_data3_HS_OUT[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_HS_OUT[4]' wire 'mipi_dp_data3_HS_OUT[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_HS_OUT[3]' wire 'mipi_dp_data3_HS_OUT[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_HS_OUT[2]' wire 'mipi_dp_data3_HS_OUT[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_HS_OUT[1]' wire 'mipi_dp_data3_HS_OUT[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_HS_OUT[0]' wire 'mipi_dp_data3_HS_OUT[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_HS_OE' wire 'mipi_dp_data3_HS_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_HS_OE' wire 'mipi_dp_data2_HS_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_HS_OE' wire 'mipi_dp_data1_HS_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_HS_OE' wire 'mipi_dp_data0_HS_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_LP_P_OE' wire 'mipi_dp_clk_LP_P_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_LP_N_OE' wire 'mipi_dp_clk_LP_N_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_LP_P_OE' wire 'mipi_dp_data3_LP_P_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_LP_N_OE' wire 'mipi_dp_data3_LP_N_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_LP_P_OE' wire 'mipi_dp_data2_LP_P_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_LP_N_OE' wire 'mipi_dp_data2_LP_N_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_LP_P_OE' wire 'mipi_dp_data1_LP_P_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_LP_N_OE' wire 'mipi_dp_data1_LP_N_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_LP_P_OE' wire 'mipi_dp_data0_LP_P_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_LP_N_OE' wire 'mipi_dp_data0_LP_N_OE' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : Rx_HS_D_4[7:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:6313)
+[EFX-0200 WARNING] Removing redundant signal : Rx_HS_D_5[7:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:6313)
+[EFX-0200 WARNING] Removing redundant signal : Rx_HS_D_6[7:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:6313)
+[EFX-0200 WARNING] Removing redundant signal : Rx_HS_D_7[7:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:6313)
+[EFX-0200 WARNING] Removing redundant signal : u_dly_enable_D[3:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:6313)
+[EFX-0200 WARNING] Removing redundant signal : u_dly_inc_D[3:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:6313)
+[EFX-0200 WARNING] Removing redundant signal : axi_awaddr[1:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:5570)
+[EFX-0200 WARNING] Removing redundant signal : axi_araddr[1:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:5570)
+[EFX-0200 WARNING] Removing redundant signal : mipi_debug_in[31:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:5570)
+[EFX-0200 WARNING] Removing redundant signal : loc_rdata[31:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:5570)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D32[15:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D32.Data[31:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D32.fcrc[15:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D32.d[31:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D32.c[15:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D32.newcrc[15:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D24[15:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D24.Data[23:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D24.fcrc[15:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D24.d[23:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'i_hs' in module 'vid_rx_align_v1(I_VID_WIDTH=32,AXI_DDR_WIDTH=128)'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\frame_buffer_V3\frame_buffer.v:161)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'pi_calib_done_r1' in module 'ddr_calibration_ini(tCK=2500,CLK_PERIOD=10000,DQ_WIDTH=16,DQS_WIDTH=2,nCL=6,tRFC=350000,RTT_WR="120")'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\phy_ctl\ddr_calibration_ini.v:1521)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'a_wr_rst_i' in module 'efx_fifo_top_6ceb0421bf6b4ab2809a782952ee3915(FAMILY="TITANIUM",MODE="FWFT",DEPTH=16,DATA_WIDTH=90,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=16,PROG_FULL_NEGATE=16,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=0)'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\common\efx_fifo_v2.3\efx_fifo_wrapper.v:124)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'a_rd_rst_i' in module 'efx_fifo_top_6ceb0421bf6b4ab2809a782952ee3915(FAMILY="TITANIUM",MODE="FWFT",DEPTH=16,DATA_WIDTH=90,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=16,PROG_FULL_NEGATE=16,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=0)'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\common\efx_fifo_v2.3\efx_fifo_wrapper.v:124)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'a_wr_rst_i' in module 'efx_fifo_top_6ceb0421bf6b4ab2809a782952ee3915(FAMILY="TITANIUM",MODE="FWFT",DEPTH=16,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=16,PROG_FULL_NEGATE=16,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=0)'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\common\efx_fifo_v2.3\efx_fifo_wrapper.v:124)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'a_rd_rst_i' in module 'efx_fifo_top_6ceb0421bf6b4ab2809a782952ee3915(FAMILY="TITANIUM",MODE="FWFT",DEPTH=16,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=16,PROG_FULL_NEGATE=16,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=0)'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\common\efx_fifo_v2.3\efx_fifo_wrapper.v:124)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'a_wr_rst_i' in module 'efx_fifo_top_6ceb0421bf6b4ab2809a782952ee3915(FAMILY="TITANIUM",MODE="FWFT",DEPTH=16,DATA_WIDTH=144,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=16,PROG_FULL_NEGATE=16,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=0)'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\common\efx_fifo_v2.3\efx_fifo_wrapper.v:124)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'a_rd_rst_i' in module 'efx_fifo_top_6ceb0421bf6b4ab2809a782952ee3915(FAMILY="TITANIUM",MODE="FWFT",DEPTH=16,DATA_WIDTH=144,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=16,PROG_FULL_NEGATE=16,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=0)'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\common\efx_fifo_v2.3\efx_fifo_wrapper.v:124)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'a_wr_rst_i' in module 'efx_fifo_top_6ceb0421bf6b4ab2809a782952ee3915(FAMILY="TITANIUM",MODE="FWFT",DEPTH=16,DATA_WIDTH=128,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=16,PROG_FULL_NEGATE=16,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=0)'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\common\efx_fifo_v2.3\efx_fifo_wrapper.v:124)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'a_rd_rst_i' in module 'efx_fifo_top_6ceb0421bf6b4ab2809a782952ee3915(FAMILY="TITANIUM",MODE="FWFT",DEPTH=16,DATA_WIDTH=128,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=16,PROG_FULL_NEGATE=16,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=0)'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\common\efx_fifo_v2.3\efx_fifo_wrapper.v:124)
+[EFX-0657 WARNING] Mapping into logic memory block 'row_id' (44 bits) (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\scale\video_scaler_top.v:82) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'logic_progbufX_mem' (64 bits) (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\ip\my_soc\my_soc.v:8914) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'logic_ram' (32 bits) (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\ip\my_soc\my_soc.v:15987) because size is too small (<=64)
+[EFX-0666 WARNING] Mapping into logic multiplier 'mult_3'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\style_accel\style_net_core.v:1074)
+[EFX-0666 WARNING] Mapping into logic multiplier 'mult_4'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\style_accel\style_net_core.v:1075)
+[EFX-0666 WARNING] Mapping into logic multiplier 'mult_54'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\style_accel\style_net_core.v:1162)
+[EFX-0666 WARNING] Mapping into logic multiplier 'mult_180'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\style_accel\style_net_core.v:1219)
+[EFX-0666 WARNING] Mapping into logic multiplier 'mult_24'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\style_accel\style_net_core.v:1135)
+[EFX-0666 WARNING] Mapping into logic multiplier 'mult_15'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\style_accel\style_net_core.v:1084)
+[EFX-0657 WARNING] Mapping into logic memory block 'u_ddr3_top/u_memory_bus_ctl/col_mach/fifo_ram[1].RAM32M0/memory' (256 bits) (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\memory_bus_ctl\memory_bus_ctl.v:5169) because 'syn_ram_style' directive is 'register' or 'logic'.
+[EFX-0657 WARNING] Mapping into logic memory block 'u_style_accel_apb/u_cmd_regs/key_filter_count' (80 bits) (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\style_accel\style_accel_cmd_regs.v:119) because it has all constant reader/writer.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2026 18:23:14
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe1' remains unconnected for this instance (VERI-1927) (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:114)
+[EFX-0011 VERI-WARNING] input port 'probe1[0]' remains unconnected for this instance (VDB-1053) (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:5516)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:5517)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:5727)
+[EFX-0200 WARNING] Removing redundant signal : clk. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:4550)
+[EFX-0200 WARNING] Removing redundant signal : full. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:4604)
+[EFX-0200 WARNING] Removing redundant signal : shift_i. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:4874)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:4891)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:4892)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:1033)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RESET. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:1034)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:1035)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:1036)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:1040)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:1052)
+[EFX-0200 WARNING] Removing redundant signal : mux_capture_cmp[0]. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:3471)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:272)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:273)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:275)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:280)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe1[0]' in module 'edb_la_top_4a2f80342142420684bb4d0a83b79ba3(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b11001100100000000101101100011100101100000010111001001110100101101000010100001000010011011111111101011010000001000001001111001010,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe2[0]' in module 'edb_la_top_4a2f80342142420684bb4d0a83b79ba3(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b11001100100000000101101100011100101100000010111001001110100101101000010100001000010011011111111101011010000001000001001111001010,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe3[0]' in module 'edb_la_top_4a2f80342142420684bb4d0a83b79ba3(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b11001100100000000101101100011100101100000010111001001110100101101000010100001000010011011111111101011010000001000001001111001010,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe4[0]' in module 'edb_la_top_4a2f80342142420684bb4d0a83b79ba3(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b11001100100000000101101100011100101100000010111001001110100101101000010100001000010011011111111101011010000001000001001111001010,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe5[0]' in module 'edb_la_top_4a2f80342142420684bb4d0a83b79ba3(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b11001100100000000101101100011100101100000010111001001110100101101000010100001000010011011111111101011010000001000001001111001010,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe6[0]' in module 'edb_la_top_4a2f80342142420684bb4d0a83b79ba3(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b11001100100000000101101100011100101100000010111001001110100101101000010100001000010011011111111101011010000001000001001111001010,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe7[0]' in module 'edb_la_top_4a2f80342142420684bb4d0a83b79ba3(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b11001100100000000101101100011100101100000010111001001110100101101000010100001000010011011111111101011010000001000001001111001010,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe8[0]' in module 'edb_la_top_4a2f80342142420684bb4d0a83b79ba3(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b11001100100000000101101100011100101100000010111001001110100101101000010100001000010011011111111101011010000001000001001111001010,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe9[0]' in module 'edb_la_top_4a2f80342142420684bb4d0a83b79ba3(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b11001100100000000101101100011100101100000010111001001110100101101000010100001000010011011111111101011010000001000001001111001010,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'probe10[0]' in module 'edb_la_top_4a2f80342142420684bb4d0a83b79ba3(DATA_DEPTH=4096,INPUT_PIPE_STAGES=1,UUID=128'b11001100100000000101101100011100101100000010111001001110100101101000010100001000010011011111111101011010000001000001001111001010,PROBE0_TYPE=1)'. (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:92)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:17)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:19)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected. Place and route may remove this unconnected port. (VDB-8003) (D:/efinity_prj/DemoBoard/Ti60F225_DemoBoard_v4/Ti60f225_sc431hai2hdmi_v6_clean/work_dbg/debug_top.v:24)
+[EFX-0011 VERI-WARNING] Found 3 warnings in the post-synthesis netlist. 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2026 18:23:20
+///////////////////////////////////
+
+[EFX-0256 WARNING] The primary output port 'pll_inst4_RSTN' wire 'pll_inst4_RSTN' is not driven.
+[EFX-0256 WARNING] The primary output port 'led[3]' wire 'led[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'led[2]' wire 'led[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'led[1]' wire 'led[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_LP_P_OUT' wire 'mipi_dp_clk_LP_P_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_LP_N_OUT' wire 'mipi_dp_clk_LP_N_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_HS_OUT[7]' wire 'mipi_dp_clk_HS_OUT[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_HS_OUT[6]' wire 'mipi_dp_clk_HS_OUT[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_HS_OUT[5]' wire 'mipi_dp_clk_HS_OUT[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_HS_OUT[4]' wire 'mipi_dp_clk_HS_OUT[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_HS_OUT[3]' wire 'mipi_dp_clk_HS_OUT[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_HS_OUT[2]' wire 'mipi_dp_clk_HS_OUT[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_HS_OUT[1]' wire 'mipi_dp_clk_HS_OUT[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_HS_OUT[0]' wire 'mipi_dp_clk_HS_OUT[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_HS_OE' wire 'mipi_dp_clk_HS_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_LP_P_OUT' wire 'mipi_dp_data3_LP_P_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_LP_P_OUT' wire 'mipi_dp_data2_LP_P_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_LP_P_OUT' wire 'mipi_dp_data1_LP_P_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_LP_P_OUT' wire 'mipi_dp_data0_LP_P_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_LP_N_OUT' wire 'mipi_dp_data3_LP_N_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_LP_N_OUT' wire 'mipi_dp_data2_LP_N_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_LP_N_OUT' wire 'mipi_dp_data1_LP_N_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_LP_N_OUT' wire 'mipi_dp_data0_LP_N_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_HS_OUT[7]' wire 'mipi_dp_data0_HS_OUT[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_HS_OUT[6]' wire 'mipi_dp_data0_HS_OUT[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_HS_OUT[5]' wire 'mipi_dp_data0_HS_OUT[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_HS_OUT[4]' wire 'mipi_dp_data0_HS_OUT[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_HS_OUT[3]' wire 'mipi_dp_data0_HS_OUT[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_HS_OUT[2]' wire 'mipi_dp_data0_HS_OUT[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_HS_OUT[1]' wire 'mipi_dp_data0_HS_OUT[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_HS_OUT[0]' wire 'mipi_dp_data0_HS_OUT[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_HS_OUT[7]' wire 'mipi_dp_data1_HS_OUT[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_HS_OUT[6]' wire 'mipi_dp_data1_HS_OUT[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_HS_OUT[5]' wire 'mipi_dp_data1_HS_OUT[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_HS_OUT[4]' wire 'mipi_dp_data1_HS_OUT[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_HS_OUT[3]' wire 'mipi_dp_data1_HS_OUT[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_HS_OUT[2]' wire 'mipi_dp_data1_HS_OUT[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_HS_OUT[1]' wire 'mipi_dp_data1_HS_OUT[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_HS_OUT[0]' wire 'mipi_dp_data1_HS_OUT[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_HS_OUT[7]' wire 'mipi_dp_data2_HS_OUT[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_HS_OUT[6]' wire 'mipi_dp_data2_HS_OUT[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_HS_OUT[5]' wire 'mipi_dp_data2_HS_OUT[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_HS_OUT[4]' wire 'mipi_dp_data2_HS_OUT[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_HS_OUT[3]' wire 'mipi_dp_data2_HS_OUT[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_HS_OUT[2]' wire 'mipi_dp_data2_HS_OUT[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_HS_OUT[1]' wire 'mipi_dp_data2_HS_OUT[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_HS_OUT[0]' wire 'mipi_dp_data2_HS_OUT[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_HS_OUT[7]' wire 'mipi_dp_data3_HS_OUT[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_HS_OUT[6]' wire 'mipi_dp_data3_HS_OUT[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_HS_OUT[5]' wire 'mipi_dp_data3_HS_OUT[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_HS_OUT[4]' wire 'mipi_dp_data3_HS_OUT[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_HS_OUT[3]' wire 'mipi_dp_data3_HS_OUT[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_HS_OUT[2]' wire 'mipi_dp_data3_HS_OUT[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_HS_OUT[1]' wire 'mipi_dp_data3_HS_OUT[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_HS_OUT[0]' wire 'mipi_dp_data3_HS_OUT[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_HS_OE' wire 'mipi_dp_data3_HS_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_HS_OE' wire 'mipi_dp_data2_HS_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_HS_OE' wire 'mipi_dp_data1_HS_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_HS_OE' wire 'mipi_dp_data0_HS_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_LP_P_OE' wire 'mipi_dp_clk_LP_P_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_clk_LP_N_OE' wire 'mipi_dp_clk_LP_N_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_LP_P_OE' wire 'mipi_dp_data3_LP_P_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data3_LP_N_OE' wire 'mipi_dp_data3_LP_N_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_LP_P_OE' wire 'mipi_dp_data2_LP_P_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data2_LP_N_OE' wire 'mipi_dp_data2_LP_N_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_LP_P_OE' wire 'mipi_dp_data1_LP_P_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data1_LP_N_OE' wire 'mipi_dp_data1_LP_N_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_LP_P_OE' wire 'mipi_dp_data0_LP_P_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'mipi_dp_data0_LP_N_OE' wire 'mipi_dp_data0_LP_N_OE' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : Rx_HS_D_4[7:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:6313)
+[EFX-0200 WARNING] Removing redundant signal : Rx_HS_D_5[7:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:6313)
+[EFX-0200 WARNING] Removing redundant signal : Rx_HS_D_6[7:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:6313)
+[EFX-0200 WARNING] Removing redundant signal : Rx_HS_D_7[7:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:6313)
+[EFX-0200 WARNING] Removing redundant signal : u_dly_enable_D[3:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:6313)
+[EFX-0200 WARNING] Removing redundant signal : u_dly_inc_D[3:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:6313)
+[EFX-0200 WARNING] Removing redundant signal : axi_awaddr[1:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:5570)
+[EFX-0200 WARNING] Removing redundant signal : axi_araddr[1:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:5570)
+[EFX-0200 WARNING] Removing redundant signal : mipi_debug_in[31:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:5570)
+[EFX-0200 WARNING] Removing redundant signal : loc_rdata[31:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:5570)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D32[15:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D32.Data[31:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D32.fcrc[15:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D32.d[31:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D32.c[15:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D32.newcrc[15:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D24[15:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D24.Data[23:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D24.fcrc[15:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0200 WARNING] Removing redundant signal : nextCRC16_D24.d[23:0]. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\csi_rx_controller.sv:1740)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'i_hs' in module 'vid_rx_align_v1(I_VID_WIDTH=32,AXI_DDR_WIDTH=128)'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\frame_buffer_V3\frame_buffer.v:161)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'pi_calib_done_r1' in module 'ddr_calibration_ini(tCK=2500,CLK_PERIOD=10000,DQ_WIDTH=16,DQS_WIDTH=2,nCL=6,tRFC=350000,RTT_WR="120")'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\phy_ctl\ddr_calibration_ini.v:1521)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'a_wr_rst_i' in module 'efx_fifo_top_6ceb0421bf6b4ab2809a782952ee3915(FAMILY="TITANIUM",MODE="FWFT",DEPTH=16,DATA_WIDTH=90,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=16,PROG_FULL_NEGATE=16,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=0)'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\common\efx_fifo_v2.3\efx_fifo_wrapper.v:124)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'a_rd_rst_i' in module 'efx_fifo_top_6ceb0421bf6b4ab2809a782952ee3915(FAMILY="TITANIUM",MODE="FWFT",DEPTH=16,DATA_WIDTH=90,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=16,PROG_FULL_NEGATE=16,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=0)'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\common\efx_fifo_v2.3\efx_fifo_wrapper.v:124)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'a_wr_rst_i' in module 'efx_fifo_top_6ceb0421bf6b4ab2809a782952ee3915(FAMILY="TITANIUM",MODE="FWFT",DEPTH=16,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=16,PROG_FULL_NEGATE=16,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=0)'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\common\efx_fifo_v2.3\efx_fifo_wrapper.v:124)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'a_rd_rst_i' in module 'efx_fifo_top_6ceb0421bf6b4ab2809a782952ee3915(FAMILY="TITANIUM",MODE="FWFT",DEPTH=16,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=16,PROG_FULL_NEGATE=16,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=0)'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\common\efx_fifo_v2.3\efx_fifo_wrapper.v:124)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'a_wr_rst_i' in module 'efx_fifo_top_6ceb0421bf6b4ab2809a782952ee3915(FAMILY="TITANIUM",MODE="FWFT",DEPTH=16,DATA_WIDTH=144,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=16,PROG_FULL_NEGATE=16,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=0)'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\common\efx_fifo_v2.3\efx_fifo_wrapper.v:124)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'a_rd_rst_i' in module 'efx_fifo_top_6ceb0421bf6b4ab2809a782952ee3915(FAMILY="TITANIUM",MODE="FWFT",DEPTH=16,DATA_WIDTH=144,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=16,PROG_FULL_NEGATE=16,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=0)'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\common\efx_fifo_v2.3\efx_fifo_wrapper.v:124)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'a_wr_rst_i' in module 'efx_fifo_top_6ceb0421bf6b4ab2809a782952ee3915(FAMILY="TITANIUM",MODE="FWFT",DEPTH=16,DATA_WIDTH=128,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=16,PROG_FULL_NEGATE=16,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=0)'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\common\efx_fifo_v2.3\efx_fifo_wrapper.v:124)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net/port 'a_rd_rst_i' in module 'efx_fifo_top_6ceb0421bf6b4ab2809a782952ee3915(FAMILY="TITANIUM",MODE="FWFT",DEPTH=16,DATA_WIDTH=128,PROGRAMMABLE_FULL="NONE",PROG_FULL_ASSERT=16,PROG_FULL_NEGATE=16,PROGRAMMABLE_EMPTY="NONE",PROG_EMPTY_ASSERT=0,PROG_EMPTY_NEGATE=0)'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\common\efx_fifo_v2.3\efx_fifo_wrapper.v:124)
+[EFX-0657 WARNING] Mapping into logic memory block 'row_id' (44 bits) (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\scale\video_scaler_top.v:82) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'logic_progbufX_mem' (64 bits) (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\ip\my_soc\my_soc.v:8914) because size is too small (<=64)
+[EFX-0657 WARNING] Mapping into logic memory block 'logic_ram' (32 bits) (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\ip\my_soc\my_soc.v:15987) because size is too small (<=64)
+[EFX-0666 WARNING] Mapping into logic multiplier 'mult_3'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\style_accel\style_net_core.v:1074)
+[EFX-0666 WARNING] Mapping into logic multiplier 'mult_4'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\style_accel\style_net_core.v:1075)
+[EFX-0666 WARNING] Mapping into logic multiplier 'mult_54'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\style_accel\style_net_core.v:1162)
+[EFX-0666 WARNING] Mapping into logic multiplier 'mult_180'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\style_accel\style_net_core.v:1219)
+[EFX-0666 WARNING] Mapping into logic multiplier 'mult_24'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\style_accel\style_net_core.v:1135)
+[EFX-0666 WARNING] Mapping into logic multiplier 'mult_15'. (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\style_accel\style_net_core.v:1084)
+[EFX-0657 WARNING] Mapping into logic memory block 'u_ddr3_top/u_memory_bus_ctl/col_mach/fifo_ram[1].RAM32M0/memory' (256 bits) (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\ddr3_controller\memory_bus_ctl\memory_bus_ctl.v:5169) because 'syn_ram_style' directive is 'register' or 'logic'.
+[EFX-0657 WARNING] Mapping into logic memory block 'u_style_accel_apb/u_cmd_regs/key_filter_count' (80 bits) (D:\efinity_prj\DemoBoard\Ti60F225_DemoBoard_v4\Ti60f225_sc431hai2hdmi_v6_clean\rtl\style_accel\style_accel_cmd_regs.v:119) because it has all constant reader/writer.
